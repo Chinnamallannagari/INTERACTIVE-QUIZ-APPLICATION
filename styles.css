@@ -1,0 +1,146 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: black;
+}
+
+/* Animation for background gradient */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Quiz and Result Containers */
+#quiz-container, #result-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Header and Question Text */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #2c3e50;
+}
+.question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Option Buttons */
+.option-button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+.option-button:hover {
+    background-color: #2980b9;
+}
+.option-button:active {
+    background-color: #1f618d;
+}
+
+/* Next Button */
+#next-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    font-size: 18px;
+}
+
+#next-button:hover {
+    background-color: #2ecc71;
+}
+#next-button:active {
+    background-color: #1e8449;
+}
+
+/* Timer and Feedback */
+#feedback-text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#timer-text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Result Text */
+.result-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Feedback Form */
+.feedback-form {
+    text-align: center;
+    margin-top: 20px;
+}
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+button:active {
+    background-color: #1f618d;
+}
