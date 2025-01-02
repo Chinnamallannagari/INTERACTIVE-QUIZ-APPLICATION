@@ -17,23 +17,23 @@ This repository contains the code for an interactive quiz application designed t
 
 Features:-
 
->Dynamic Quiz Logic: Built using JavaScript to handle scoring, question navigation, and feedback.
+Dynamic Quiz Logic: Built using JavaScript to handle scoring, question navigation, and feedback.
 
->Multiple-Choice Questions: Users can select answers from a list of options for each question.
+Multiple-Choice Questions: Users can select answers from a list of options for each question.
 
->Real-Time Feedback: Instant feedback is provided for each question, indicating whether the selected answer is correct or not.
+Real-Time Feedback: Instant feedback is provided for each question, indicating whether the selected answer is correct or not.
 
->Results Summary: At the end of the quiz, users are presented with their total score and a breakdown of their answers.
+Results Summary: At the end of the quiz, users are presented with their total score and a breakdown of their answers.
 
->User-Friendly Interface: Clean and intuitive design for a seamless user experience.
+User-Friendly Interface: Clean and intuitive design for a seamless user experience.
 
 Technologies Used:-
 
->HTML5: For structuring the quiz content.
+HTML5: For structuring the quiz content.
 
->CSS3: For styling and layout design.
+CSS3: For styling and layout design.
 
->JavaScript: For implementing quiz logic, scoring, and interactivity.
+JavaScript: For implementing quiz logic, scoring, and interactivity.
 
 Installation and Usage:-
 
